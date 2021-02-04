@@ -3,7 +3,7 @@ from celery.result import AsyncResult
 from tasks import  add
 from databaseInfo import *
 
-
+# Just testing the app
 app = Flask(__name__)
 
 @app.route('/')
